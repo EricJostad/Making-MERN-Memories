@@ -23,7 +23,7 @@ const Form = () => {
                     label="Creator"
                     fullWidth
                     value={postData.creator}
-                    onChange={ }
+                    onChange={(e) => setPostData({ ...postData, creator: e.target.value })}
                 />
 
             </form>
